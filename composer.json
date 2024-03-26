@@ -1,0 +1,27 @@
+{
+    "name": "itsh-candy-markt24/itsh-candy-markt24",
+    "description": "CandyMarkt24 individuelle Erweiterungen",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "6.5.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "ItshCandyMarkt24\\ItshCandyMarkt24",
+        "label": {
+            "de-DE": "CandyMarkt24 individuelle Erweiterungen",
+            "en-GB": "CandyMarkt24 individual addons"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ItshCandyMarkt24\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ItshCandyMarkt24\\Tests\\": "tests/"
+        }
+    }
+}
