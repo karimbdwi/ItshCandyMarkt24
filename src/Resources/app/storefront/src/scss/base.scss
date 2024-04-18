@@ -1,0 +1,25 @@
+
+.footer-newsletter.col-xl-12, .footer-newsletter.col-md-12.col-xl-inherit {
+        padding-top: 2rem!important;
+        padding-bottom: 1rem!important;
+}
+@media (min-width: 992px){
+    .footer-main .footer-logo-main {
+        height: 64px!important;
+    }
+}
+@media (max-width: 576px) {
+    .top-bar-marketing {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .header-logo-col {
+        padding-left: 5em;
+    }
+}
+.footer-column-headline.footer-logo .footer-logo-main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
