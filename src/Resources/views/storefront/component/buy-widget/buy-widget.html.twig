@@ -1,0 +1,26 @@
+{% sw_extends '@zenitPlatformSphere/storefront/page/product-detail/buy-widget.html.twig' %}
+
+{% block buy_widget_ordernumber_container %}
+
+
+	{{ parent() }}
+
+	{% block product_detail_payment_logos %}
+		<div class="itsh-payment-logos-container">
+			<div class="itsh-payment-logos-title">
+				<p>Bezahlmöglichkeiten</p>
+			</div>
+			<div class="product-detail-payment-logos">
+				<img src="https://candymarkt24.de/media/c0/52/06/1711634526/payment_app_MolliePaymentsApp_mollie_paypal.png?1711634526" class="img-fluid payment-logo-image" alt="PayPal" title="PayPal" loading="eager">
+				<img src="https://candymarkt24.de/media/0b/91/69/1711634526/payment_app_MolliePaymentsApp_mollie_klarnasliceit.png?1711634526" class="img-fluid payment-logo-image" alt="Pay later." title="Pay later." loading="eager">
+				<img src="https://candymarkt24.de/media/f2/57/80/1711634526/payment_app_MolliePaymentsApp_mollie_applepay.png?1711634526" class="img-fluid payment-logo-image" alt="Apple Pay" title="Apple Pay" loading="eager">
+				<img src="https://candymarkt24.de/media/0b/21/1b/1711634526/payment_app_MolliePaymentsApp_mollie_creditcard.png?1711634526" class="img-fluid payment-logo-image" alt="Kreditkarte" title="Kreditkarte" loading="eager">
+				<img src="https://candymarkt24.de/media/70/23/82/1711634526/payment_app_MolliePaymentsApp_mollie_giropay.png?1711634526" class="img-fluid payment-logo-image" alt="Giropay" title="Giropay" loading="eager">
+				<img src="https://candymarkt24.de/media/g0/f2/9f/1711634526/payment_app_MolliePaymentsApp_mollie_banktransfer.png?1711634526" class="img-fluid payment-logo-image" alt="Banktransfer" title="Banktransfer" loading="eager">
+				<img src="https://candymarkt24.de/media/e5/2a/b1/1711634526/payment_app_MolliePaymentsApp_mollie_eps.png?1711634526" class="img-fluid payment-logo-image" alt="eps" title="eps" loading="eager">
+				<img src="https://candymarkt24.de/media/3d/c0/7d/1711634526/payment_app_MolliePaymentsApp_mollie_bancontact.png?1711634526" class="img-fluid payment-logo-image" alt="Bancontact" title="Bancontact" loading="eager">
+				<img src="https://candymarkt24.de/media/27/14/7a/1711634526/payment_app_MolliePaymentsApp_mollie_billie.png?1711634526" class="img-fluid payment-logo-image" alt="Billie" title="Billie" loading="eager">
+			</div>
+		</div>
+	{% endblock %}
+{% endblock %}
