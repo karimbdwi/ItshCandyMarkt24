@@ -49,3 +49,12 @@
     max-width: 100px;
     margin: 0.25rem;
 }
+@media (min-width: 768px) {
+    .footer-logos {
+        justify-content: left!important;
+    }
+    #collapseFooterPaymentLogos {
+        height: 175px;
+        overflow: hidden;
+    }
+}
